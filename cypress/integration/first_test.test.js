@@ -6,7 +6,7 @@ describe('My First Test', () => {
       .should('have.text', 'Hello Cypress!');
   });
 
-  it('should be a span with input value', () => {
+  it('should have a span with input value', () => {
     cy.visit('http://localhost:8080');
     const name = 'David';
     const surname = 'Alves';
